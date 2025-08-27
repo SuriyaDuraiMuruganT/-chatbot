@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify, session, render_template
 from flask_cors import CORS
 import os
 import io
-import base64
 from werkzeug.utils import secure_filename
 from PyPDF2 import PdfReader
 from PIL import Image
